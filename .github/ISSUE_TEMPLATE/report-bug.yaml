@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report a bug
+description: File a bug/issue
 title: '[BUG] <title>'
 labels: ["bug"]
 assignees: 'FabWishlist' 
