@@ -62,7 +62,3 @@ body:
       value: |
         #
         ![alt text](https://i.imgur.com/gPLIPjL.png)
-required:
-  - expected-behavior
-  - actual-behavior
-  - steps-to-reproduce
