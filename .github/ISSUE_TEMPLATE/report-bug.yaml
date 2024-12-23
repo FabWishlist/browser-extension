@@ -15,14 +15,14 @@ body:
     attributes:
       label: What did you expect to happen?
       placeholder: (Please describe the desired behavior or feature you were expecting.)
-      validations:
+   
         required: true
   - type: textarea
     id: description
     attributes:
       label: What actually happened?
       placeholder: (Please provide a detailed description of the issue, including any error messages or unexpected behavior.)
-      validations:
+   
         required: true
   - type: textarea
     id: steps
