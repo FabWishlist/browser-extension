@@ -31,25 +31,36 @@ body:
         3.
         4.
         (Include any specific actions, buttons, or screens involved.)
-  - type: checkboxes
+  - type: dropdown
     id: Frequency
     attributes:
       label: Frequency of the Issue
-      description: 
+      description: Please select how often you encounter the issue.
       options:
-        - label: Always
-        - label: Sometimes
-        - label: Rarely
-        - label: Occasionally
-  - type: checkboxes
+        - "Always"
+        - "Sometimes"
+        - "Rarely"
+        - "Occasionally"
+  - type: dropdown
     id: Device
     attributes:
       label: Device & Environment Information
-      description: Device Type
+      description: Please select your device type.
       options:
-        - label: Desktop
-        - label: Mobile
-        - label: Tablet
+        - "Desktop"
+        - "Mobile"
+        - "Tablet"
+  - type: dropdown
+    id: System
+    attributes:
+      label: Operating System
+      description: Please select your operating system.
+      options:
+        - "Windows"
+        - "macOS"
+        - "iOS"
+        - "Android"
+        - "Other: _______"
   - type: textarea
     id: expected-result
     attributes:
