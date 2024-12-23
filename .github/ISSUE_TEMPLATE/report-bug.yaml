@@ -44,9 +44,7 @@ body:
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
       options:
       - label: Always
-      - label: Often
-      - label: Occasionally
-      - label: Rarely
+ 
   - type: textarea
       id: expected
       attributes:
