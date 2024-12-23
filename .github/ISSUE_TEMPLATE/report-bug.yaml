@@ -2,68 +2,68 @@ name: Bug Report
 description: File a bug/issue
 title: '[BUG] <title>'
 labels: ["bug"]
-assignees: 'FabWishlist' 
+assignees: 'FabWishlist'
 body:
-- type: markdown
-      attributes:
+  - type: markdown
+    attributes:
       value: |
-      ![alt text](https://i.imgur.com/C0jN92e.png) 
-      #
-      Thank you for helping us improve the Fab Wishlist experience! If you've encountered a bug or issue while using the Wishlist feature, please provide as many details as possible to help our team investigate and resolve the problem quickly. Please fill out the form below
+        ![alt text](https://i.imgur.com/C0jN92e.png) 
+        #
+        Thank you for helping us improve the Fab Wishlist experience! If you've encountered a bug or issue while using the Wishlist feature, please provide as many details as possible to help our team investigate and resolve the problem quickly. Please fill out the form below
   - type: textarea
-      id: description
-      attributes:
+    id: description
+    attributes:
       label: What did you expect to happen?
       placeholder: (Please describe the desired behavior or feature you were expecting.)
       validations:
-      required: true
+        required: true
   - type: textarea
-      id: description
-      attributes:
+    id: description
+    attributes:
       label: What actually happened?
       placeholder: (Please provide a detailed description of the issue, including any error messages or unexpected behavior.)
       validations:
-      required: true
+        required: true
   - type: textarea
-      id: steps
-      attributes:
+    id: steps
+    attributes:
       label: Steps to Reproduce
       placeholder: |
-      (Please list the steps you took that led to the bug, so we can reproduce it on our end.)
-      1.
-      2.
-      3.
-      4.
-      (Include any specific actions, buttons, or screens involved.)
+        (Please list the steps you took that led to the bug, so we can reproduce it on our end.)
+        1.
+        2.
+        3.
+        4.
+        (Include any specific actions, buttons, or screens involved.)
       validations:
-      required: true
+        required: true
   - type: checkboxes
-      id: terms
-      attributes:
+    id: terms
+    attributes:
       label: Code of Conduct
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
       options:
-      - label: Always
-      - label: Often
-      - label: Occasionally
-      - label: Rarely
+        - label: Always
+        - label: Often
+        - label: Occasionally
+        - label: Rarely
   - type: textarea
-      id: expected
-      attributes:
+    id: expected
+    attributes:
       label: What was the expected result?
       placeholder: I expected this to happen
   - type: textarea
-      id: screenshots
-      attributes:
+    id: screenshots
+    attributes:
       label: Put here any screenshots or videos (optional)
   - type: dropdown
-      id: assign
-      attributes:
+    id: assign
+    attributes:
       label: "Would you like to work on this issue?"
       options:
-      - "Yes"
+        - "Yes"
   - type: markdown
-      attributes:
+    attributes:
       value: |
-      #
-      ![alt text](https://i.imgur.com/gPLIPjL.png) 
+        #
+        ![alt text](https://i.imgur.com/gPLIPjL.png)
