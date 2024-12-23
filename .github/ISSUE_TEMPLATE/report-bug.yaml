@@ -31,16 +31,16 @@ body:
         3.
         4.
         (Include any specific actions, buttons, or screens involved.)
-  - type: dropdown
+  - type: checkboxes
     id: Frequency
     attributes:
       label: Frequency of the Issue
-      description: Please select how often you encounter the issue.
+      description: 
       options:
-        - "Always"
-        - "Sometimes"
-        - "Rarely"
-        - "Occasionally"
+        - label: Always
+        - label: Sometimes
+        - label: Rarely
+        - label: Occasionally
   - type: dropdown
     id: Device
     attributes:
@@ -62,21 +62,9 @@ body:
         - "Android"
         - "Other: _______"
   - type: textarea
-    id: expected-result
-    attributes:
-      label: What was the expected result?
-      placeholder: I expected this to happen
-  - type: textarea
     id: screenshots
     attributes:
       label: Put here any screenshots or videos (optional)
-  - type: dropdown
-    id: assign
-    attributes:
-      label: "Would you like to work on this issue?"
-      options:
-        - "Yes"
-        - "No"
   - type: markdown
     attributes:
       value: |
