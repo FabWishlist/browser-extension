@@ -45,7 +45,7 @@ body:
     id: Device
     attributes:
       label: Device & Environment Information
-      description: Device Type:
+      description: Device Type
       options:
         - label: Desktop
         - label: Mobile
