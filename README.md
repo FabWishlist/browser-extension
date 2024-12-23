@@ -1,2 +1,1 @@
-# browser-extension
-Fab Wishlist browser-extension add a wishlist function to fab.com.
+The Fab Wishlist browser extension adds a wishlist feature to Fab.com.
