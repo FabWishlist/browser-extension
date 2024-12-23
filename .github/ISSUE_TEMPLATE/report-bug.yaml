@@ -32,15 +32,23 @@ body:
         4.
         (Include any specific actions, buttons, or screens involved.)
   - type: checkboxes
-    id: terms
+    id: Frequency
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
+      label: Frequency of the Issue
       options:
         - label: Always
         - label: Sometimes
         - label: Rarely
         - label: Occasionally
+  - type: checkboxes
+    id: Device
+    attributes:
+      label: Device & Environment Information
+      description: Device Type:
+      options:
+        - label: Desktop
+        - label: Mobile
+        - label: Tablet
   - type: textarea
     id: expected-result
     attributes:
