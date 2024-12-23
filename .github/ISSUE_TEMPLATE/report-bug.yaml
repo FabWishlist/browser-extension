@@ -11,18 +11,18 @@ body:
         #
         Thank you for helping us improve the Fab Wishlist experience! If you've encountered a bug or issue while using the Wishlist feature, please provide as many details as possible to help our team investigate and resolve the problem quickly. Please fill out the form below
   - type: textarea
-  id: description
-  attributes:
-    label: What did you expect to happen?
-    placeholder: (Please describe the desired behavior or feature you were expecting.)
-  validations:
-    required: true
+    id: description
+    attributes:
+      label: What did you expect to happen?
+      placeholder: (Please describe the desired behavior or feature you were expecting.)
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
       label: What actually happened?
       placeholder: (Please provide a detailed description of the issue, including any error messages or unexpected behavior.)
-   required: true
+    required: true
   - type: textarea
     id: steps
     attributes:
@@ -34,8 +34,8 @@ body:
         3.
         4.
         (Include any specific actions, buttons, or screens involved.)
-      validations:
-        required: true
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
