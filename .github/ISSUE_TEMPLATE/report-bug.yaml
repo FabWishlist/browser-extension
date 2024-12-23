@@ -15,13 +15,11 @@ body:
     attributes:
       label: What did you expect to happen?
       placeholder: (Please describe the desired behavior or feature you were expecting.)
-      required: true
   - type: textarea
     id: actual-behavior
     attributes:
       label: What actually happened?
       placeholder: (Please provide a detailed description of the issue, including any error messages or unexpected behavior.)
-      required: true
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -33,7 +31,6 @@ body:
         3.
         4.
         (Include any specific actions, buttons, or screens involved.)
-      required: true
   - type: checkboxes
     id: terms
     attributes:
@@ -65,3 +62,7 @@ body:
       value: |
         #
         ![alt text](https://i.imgur.com/gPLIPjL.png)
+required:
+  - expected-behavior
+  - actual-behavior
+  - steps-to-reproduce
