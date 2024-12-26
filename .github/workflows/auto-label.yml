@@ -1,0 +1,20 @@
+name: Auto-Label "status: waiting for review"
+
+on:
+  issues:
+    types:
+      - labeled
+
+jobs:
+  add-status-label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for "bug" label
+        if: github.event.label.name == 'bug'
+        run: |
+          echo "Bug label detected, adding 'status: waiting for review'"
+      - name: Add "status: waiting for review"
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: "status: waiting for review"
