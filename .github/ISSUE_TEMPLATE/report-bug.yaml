@@ -1,7 +1,7 @@
 name: Report a bug
 description: Something wrong? Let us know.
 title: '[BUG]'
-labels: ["bug"]
+labels: ["bug", "status: waiting for review"]
 assignees: 'FabWishlist'
 body:
   - type: markdown
