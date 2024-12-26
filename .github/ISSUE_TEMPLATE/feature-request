@@ -1,5 +1,5 @@
 name: Feature Request
-description: Suggest a new feature or improvement
+description: Share your innovative ideas with us.
 title: '[Feature Request]'
 labels: ["feature request"]
 assignees: 'FabWishlist'
@@ -7,9 +7,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        ![alt text](https://i.imgur.com/C0jN92e.png)
+        ![alt text](https://i.imgur.com/C0jN92e.png) 
         #
-        Have a great idea for a feature or improvement? Let us know! Please provide as much detail as possible to help us understand your request. Fill out the form below:
+        Thank you for helping us improve the Fab Wishlist experience! If you've encountered a bug or issue while using the Wishlist feature, please provide as many details as possible to help our team investigate and resolve the problem quickly. Please fill out the form below
   - type: textarea
     id: feature-summary
     attributes:
@@ -29,23 +29,15 @@ body:
     id: Priority
     attributes:
       label: How urgent is this feature?
+      description: 
       options:
         - label: Critical
         - label: High
         - label: Medium
         - label: Low
-  - type: dropdown
-    id: impact
-    attributes:
-      label: Impact Level
-      description: What kind of impact would this feature have?
-      options:
-        - "High Impact (e.g., solves major issues)"
-        - "Moderate Impact (e.g., nice-to-have improvement)"
-        - "Low Impact (e.g., minor enhancement)"
   - type: markdown
     attributes:
       value: |
         #
-        Thank you for your suggestion! We appreciate your input and will carefully review your request.
         ![alt text](https://i.imgur.com/gPLIPjL.png)
+ 
