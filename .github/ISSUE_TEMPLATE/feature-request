@@ -1,0 +1,51 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+title: '[Feature Request]'
+labels: ["feature request"]
+assignees: 'FabWishlist'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ![alt text](https://i.imgur.com/C0jN92e.png)
+        #
+        Have a great idea for a feature or improvement? Let us know! Please provide as much detail as possible to help us understand your request. Fill out the form below:
+  - type: textarea
+    id: feature-summary
+    attributes:
+      label: Brief Summary of the Feature
+      placeholder: (Please provide a short summary or title for the feature you're requesting.)
+  - type: textarea
+    id: feature-details
+    attributes:
+      label: Details of the Feature
+      placeholder: (Describe the feature in detail. Why is it needed? What problem does it solve?)
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case or Example
+      placeholder: (Provide an example or specific scenario where this feature would be useful.)
+  - type: checkboxes
+    id: Priority
+    attributes:
+      label: How urgent is this feature?
+      options:
+        - label: Critical
+        - label: High
+        - label: Medium
+        - label: Low
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact Level
+      description: What kind of impact would this feature have?
+      options:
+        - "High Impact (e.g., solves major issues)"
+        - "Moderate Impact (e.g., nice-to-have improvement)"
+        - "Low Impact (e.g., minor enhancement)"
+  - type: markdown
+    attributes:
+      value: |
+        #
+        Thank you for your suggestion! We appreciate your input and will carefully review your request.
+        ![alt text](https://i.imgur.com/gPLIPjL.png)
