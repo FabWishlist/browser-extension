@@ -1,0 +1,20 @@
+name: Auto-label issues
+
+on:
+  issues:
+    types:
+      - labeled
+
+jobs:
+  add_status_label:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Check if issue has label "bug"
+        run: |
+          if [[ "${{ github.event.label.name }}" == "bug" ]]; then
+            gh issue edit ${{ github.event.issue.number }} --add-label "status: waiting for review"
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
