@@ -1,0 +1,37 @@
+name: Have a Question
+description: I'm here to help you personally!
+title: '[Question]'
+labels: ["question"]
+assignees: 'FabWishlist'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ![alt text](https://i.imgur.com/C0jN92e.png)
+        #
+        Have a question or need clarification? We're here to help! Submit your question below and we'll get back to you as soon as possible:
+  - type: textarea
+    id: question-summary
+    attributes:
+      label: Question Summary
+      placeholder: (Provide a brief summary of your question or topic.)
+  - type: textarea
+    id: question-details
+    attributes:
+      label: Details of Your Question
+      placeholder: (Please provide detailed information or context to help us better understand your question.)
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency Level
+      description: How soon do you need an answer?
+      options:
+        - "Urgent"
+        - "Soon"
+        - "Whenever possible"
+  - type: markdown
+    attributes:
+      value: |
+        #
+        Thanks for reaching out! We’ll respond to your inquiry shortly.
+        ![alt text](https://i.imgur.com/gPLIPjL.png)
