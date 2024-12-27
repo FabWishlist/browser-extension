@@ -1,1 +1,64 @@
-
+labels:
+  - name: bug
+    color: ff0008
+    description: "Indicates that there is a problem."
+    
+  - name: feature request
+    color: ffdf00
+    description: "Indicates that someone has an idea."
+    
+  - name: question
+    color: 26bbff
+    description: "Indicates that someone has a question."
+    
+  - name: status: answered
+    color: f6f8fa
+    description: "The question has been answered, and no further actions are needed."
+    
+  - name: status: approved
+    color: f6f8fa
+    description: "This feature request has been approved for implementation."
+    
+  - name: status: bug fixed
+    color: f6f8fa
+    description: "This bug has been resolved, and the fix has been implemented."
+    
+  - name: status: closed
+    color: f6f8fa
+    description: "The discussion about this question has been closed."
+    
+  - name: status: confirmed bug
+    color: f6f8fa
+    description: "This bug is confirmed and requires a solution."
+    
+  - name: status: denied
+    color: f6f8fa
+    description: "Rejected because it is not relevant, feasible, or within scope."
+    
+  - name: status: feature added
+    color: f6f8fa
+    description: "The requested feature has been added to the extension."
+    
+  - name: status: fix in progress
+    color: f6f8fa
+    description: "This bug is confirmed and a fix is in progress."
+    
+  - name: status: pending my response
+    color: f6f8fa
+    description: "This question is awaiting my response or answer."
+    
+  - name: status: under consideration
+    color: f6f8fa
+    description: "This feature request is being evaluated."
+    
+  - name: status: under review
+    color: f6f8fa
+    description: "This issue or request is currently under review."
+    
+  - name: status: waiting for response
+    color: f6f8fa
+    description: "Awaiting a response."
+    
+  - name: status: waiting for review
+    color: f6f8fa
+    description: "This issue or request is awaiting review."
