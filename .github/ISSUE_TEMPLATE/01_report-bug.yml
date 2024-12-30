@@ -15,11 +15,15 @@ body:
     attributes:
       label: What did you expect to happen?
       placeholder: (Please describe the desired behavior or feature you were expecting.)
+    validations:
+      required: true
   - type: textarea
     id: actual-behavior
     attributes:
       label: What actually happened?
       placeholder: (Please provide a detailed description of the issue, including any error messages or unexpected behavior.)
+    validations:
+      required: true
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -31,6 +35,8 @@ body:
         3.
         4.
         (Include any specific actions, buttons, or screens involved.)
+    validations:
+      required: true
   - type: checkboxes
     id: Frequency
     attributes:
@@ -41,6 +47,8 @@ body:
         - label: Sometimes
         - label: Rarely
         - label: Occasionally
+    validations:
+      required: true
   - type: dropdown
     id: Device
     attributes:
@@ -50,6 +58,8 @@ body:
         - "Desktop"
         - "Mobile"
         - "Tablet"
+    validations:
+      required: true
   - type: dropdown
     id: System
     attributes:
@@ -61,6 +71,8 @@ body:
         - "iOS"
         - "Android"
         - "Other: _______"
+    validations:
+      required: true
   - type: textarea
     id: screenshots
     attributes:
