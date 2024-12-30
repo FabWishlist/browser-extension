@@ -1,8 +1,8 @@
 name: Have a Question
 description: I'm here to help you personally!
-title: '[Question]'
+title: "[Question]"
 labels: ["question"]
-assignees: 'FabWishlist'
+assignees: "FabWishlist"
 body:
   - type: markdown
     attributes:
@@ -10,16 +10,22 @@ body:
         ![alt text](https://i.imgur.com/C0jN92e.png)
         #
         Have a question or need clarification? We're here to help! Submit your question below and we'll get back to you as soon as possible:
+    validations:
+      required: true
   - type: textarea
     id: question-summary
     attributes:
       label: Question Summary
       placeholder: (Provide a brief summary of your question or topic.)
+    validations:
+      required: true
   - type: textarea
     id: question-details
     attributes:
       label: Details of Your Question
       placeholder: (Please provide detailed information or context to help us better understand your question.)
+    validations:
+      required: true
   - type: dropdown
     id: urgency
     attributes:
@@ -29,9 +35,10 @@ body:
         - "Urgent"
         - "Soon"
         - "Whenever possible"
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |
         #
-        Thanks for reaching out! We’ll respond to your inquiry shortly.
         ![alt text](https://i.imgur.com/smUG8R5.png)
