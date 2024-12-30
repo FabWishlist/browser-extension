@@ -37,18 +37,18 @@ body:
         (Include any specific actions, buttons, or screens involved.)
     validations:
       required: true
-  - type: checkboxes
-    id: Frequency
-    attributes:
-      label: Frequency of the Issue
-      description: 
-      options:
-        - label: Always
-        - label: Sometimes
-        - label: Rarely
-        - label: Occasionally
-    validations:
-      required: true
+- type: dropdown
+  id: Frequency
+  attributes:
+    label: Frequency of the Issue
+    description: Please select the frequency of the issue.
+    options:
+      - "Always"
+      - "Sometimes"
+      - "Rarely"
+      - "Occasionally"
+  validations:
+    required: true
   - type: dropdown
     id: Device
     attributes:
