@@ -22,6 +22,7 @@ body:
     attributes:
       label: What actually happened?
       placeholder: (Please provide a detailed description of the issue, including any error messages or unexpected behavior.)
+    validations:
       required: true
   - type: textarea
     id: steps-to-reproduce
@@ -46,6 +47,7 @@ body:
         - label: Sometimes
         - label: Rarely
         - label: Occasionally
+      required: true
   - type: dropdown
     id: Device
     attributes:
