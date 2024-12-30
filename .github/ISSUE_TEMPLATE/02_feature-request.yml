@@ -1,8 +1,8 @@
 name: Feature Request
 description: Share your innovative ideas with us.
-title: '[Feature Request]'
+title: "[Feature Request]"
 labels: ["feature request"]
-assignees: 'FabWishlist'
+assignees: "FabWishlist"
 body:
   - type: markdown
     attributes:
@@ -15,25 +15,33 @@ body:
     attributes:
       label: Brief Summary of the Feature
       placeholder: (Please provide a short summary or title for the feature you're requesting.)
+    validations:
+      required: true
   - type: textarea
     id: feature-details
     attributes:
       label: Details of the Feature
       placeholder: (Describe the feature in detail. Why is it needed? What problem does it solve?)
+    validations:
+      required: true
   - type: textarea
     id: use-case
     attributes:
       label: Use Case or Example
       placeholder: (Provide an example or specific scenario where this feature would be useful.)
-  - type: checkboxes
+    validations:
+      required: true
+  - type: dropdown
     id: Priority
     attributes:
       label: How urgent is this feature?
       options:
-        - label: Critical
-        - label: High
-        - label: Medium
-        - label: Low
+        - "Critical"
+        - "High"
+        - "Medium"
+        - "Low"
+    validations:
+      required: true
   - type: dropdown
     id: impact
     attributes:
@@ -43,6 +51,8 @@ body:
         - "High Impact (e.g., solves major issues)"
         - "Moderate Impact (e.g., nice-to-have improvement)"
         - "Low Impact (e.g., minor enhancement)"
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |
