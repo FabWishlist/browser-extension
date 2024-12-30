@@ -1,8 +1,8 @@
 name: Report a bug
 description: Something wrong? Let us know.
-title: '[BUG]'
+title: "[BUG]"
 labels: ["bug"]
-assignees: 'FabWishlist'
+assignees: "FabWishlist"
 body:
   - type: markdown
     attributes:
@@ -37,17 +37,18 @@ body:
         (Include any specific actions, buttons, or screens involved.)
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: Frequency
     attributes:
       label: Frequency of the Issue
-      description: 
+      description:
       options:
-        - label: Always
-        - label: Sometimes
-        - label: Rarely
-        - label: Occasionally
- 
+        - "Always"
+        - "Sometimes"
+        - "Rarely"
+        - "Occasionally"
+    validations:
+      required: true
   - type: dropdown
     id: Device
     attributes:
@@ -81,4 +82,3 @@ body:
       value: |
         #
         ![alt text](https://i.imgur.com/xGVKeqw.png)
- 
